@@ -195,6 +195,7 @@ Navbar
 .nav-icons {
   display: none;
 }
+
 .nav-center {
   width: 100%;
   max-width: 1170px;
@@ -204,7 +205,7 @@ Navbar
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   -webkit-box-align: center;
   align-items: center;
   padding: 1rem 2rem;
@@ -216,6 +217,7 @@ Navbar
   font-size: 1.5rem;
   color: var(--clr-primary-5);
   cursor: pointer;
+  padding: 0 1rem;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -269,6 +271,11 @@ Navbar
     flex-wrap: wrap;
   }
 
+  .theme-toggle {
+    display: block;
+    margin-left: 2rem;
+  }
+
   .nav-links {
     height: auto;
     display: -webkit-box;
@@ -313,6 +320,36 @@ Navbar
   margin-left: 1.5rem;
   height: 30px;
 }
+
+/* theme toggler  */
+
+body.active {
+  --clr-white: hsl(209, 61%, 16%);
+  --clr-grey-1: #fff;
+  --clr-grey-10: hsl(209, 61%, 16%);
+}
+
+.footer.active {
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-white: #fff;
+}
+
+.hero-banner.active {
+  --clr-white: #fff;
+}
+
+.tour-btn.active {
+  --clr-white: #fff;
+}
+
+.btn-submit.active {
+  --clr-white: #fff;
+}
+.contact-title.active {
+  --clr-white: #fff;
+}
+
+/* theme toggler  */
 
 /*
 =============== 
