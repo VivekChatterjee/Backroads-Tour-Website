@@ -302,6 +302,18 @@ Navbar
     color: var(--clr-primary-8);
   }
 }
+
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  border: 0;
+  padding: 0;
+}
+.mode {
+  margin-left: 1.5rem;
+  height: 30px;
+}
+
 /*
 =============== 
 Hero
