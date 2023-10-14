@@ -48,6 +48,7 @@ themeToggler.onclick = () => {
     document.getElementsByClassName("tour-btn")[0].classList.add('active');
     document.getElementsByClassName("btn-submit")[0].classList.add('active');
     document.getElementsByClassName("contact-title")[0].classList.add('active');
+    document.querySelector('.nav-logo #back-text').classList.add('active');
   } else {
     document.querySelector('body').classList.remove('active');
     document.getElementsByClassName("footer")[0].classList.remove('active');
@@ -55,5 +56,6 @@ themeToggler.onclick = () => {
     document.getElementsByClassName("tour-btn")[0].classList.remove('active');
     document.getElementsByClassName("btn-submit")[0].classList.remove('active');
     document.getElementsByClassName("contact-title")[0].classList.remove('active');
+    document.querySelector('.nav-logo #back-text').classList.remove('active');
   }
 }

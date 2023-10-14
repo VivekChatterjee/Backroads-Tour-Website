@@ -70,7 +70,7 @@ a {
   text-decoration: none;
 }
 
-img:not(.nav-logo) {
+img {
   width: 100%;
   display: block;
 }
@@ -254,6 +254,10 @@ Navbar
   height: 280px;
 }
 
+.nav-logo #back-text.active {
+  fill: var(--clr-white);
+}
+
 @media screen and (min-width: 992px) {
   .navbar {
     padding: 1rem 2rem;
@@ -346,6 +350,9 @@ body.active {
   --clr-white: #fff;
 }
 .contact-title.active {
+  --clr-white: #fff;
+}
+.nav-logo #back-text.active {
   --clr-white: #fff;
 }
 
