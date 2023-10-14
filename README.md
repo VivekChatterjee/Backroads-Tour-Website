@@ -1,4 +1,4 @@
-# Portfolio
+# Tour Website
 
 ### A web app to explore through different tours around the world.
 
@@ -12,11 +12,12 @@
 
 
 <br> 
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome+to+Portfolio+!;Let's+Build+this+Together;Thanks+for+Contributing"
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome+to+Tour-Website+!;Let's+Build+this+Together;Thanks+for+Contributing"
  <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/>
 <br>
 
 👋 Hey there, techies!
+
 
 Are you planning to get into Open Source World?
 Then you are at a good place, this is a simple web app to help new Developers to improve using the best practices being followed in the Tech World.
